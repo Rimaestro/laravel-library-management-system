@@ -26,11 +26,7 @@ A Laravel web application for managing a library catalogue, members, and book lo
 
 Copy .env.example to .env and configure your database, then prepare and start the application:
 
-    # Windows PowerShell
-    Copy-Item .env.example .env
-
-    # macOS/Linux
-    # cp .env.example .env
+    cp .env.example .env
 
     php artisan key:generate
     php artisan migrate --seed
